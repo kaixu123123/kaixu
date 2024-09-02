@@ -1,11 +1,11 @@
 #include <stdio.h>
 void menu()
 {
-    printf("***********************");
-    printf("***1.add 2.sub*********");
-    printf("***3.mul 4.div*********");
-    printf("***0.exit**************");
-    printf("***********************");
+    printf("***********************\n");
+    printf("***1.add 2.sub*********\n");
+    printf("***3.mul 4.div*********\n");
+    printf("***0.exit**************\n");
+    printf("***********************\n");
 }
 int Add(int x, int y)
 {
@@ -33,7 +33,7 @@ int main()
     do
     {
         menu();
-        printf("%d", &input);
+        printf("请选择");
         scanf("%d", &input);
         if (input == 0)
         {
